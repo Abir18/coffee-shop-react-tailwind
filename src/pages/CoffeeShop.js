@@ -5,10 +5,15 @@ const CoffeeShop = () => {
   return (
     <div className="w-full relative bg-white h-[4931px] overflow-hidden text-left text-base text-secondary font-value-sans-pro">
       <div className="absolute top-[2894px] left-[0px] bg-floralwhite w-[1921px] h-[673px]" />
-      <img
+      {/* <img
         className="absolute h-[4.6%] w-[18.18%] top-[26.49%] right-[-5.89%] bottom-[68.91%] left-[87.71%] max-w-full overflow-hidden max-h-full object-contain opacity-[0.04]"
         alt=""
-        src="/vector.svg"
+        src="/vector-2.svg"
+      /> */}
+      <img
+        className="absolute top-[26.49%] right-[-5.89%] bottom-[68.91%] left-[87.71%] h-[227px] w-[349px]  object-contain max-w-full "
+        alt=""
+        src="/vector-2.svg"
       />
       <img
         className="absolute top-[0px] left-[0px] w-[1920px] h-[980px]"
@@ -144,7 +149,7 @@ const CoffeeShop = () => {
         </div>
       </div>
       <img
-        className="absolute top-[1006px] left-[309.3px] w-[242.7px] h-[166.5px] opacity-[0.2]"
+        className="absolute top-[1006px] left-[309.3px] w-[242.7px] h-[166.5px] "
         alt=""
         src="/group-1000008461.svg"
       />
