@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@400;600&display=swap");
+@font-face {
+  font-family: "Value Sans Pro";
+  src: url("/public/ValueSansPro-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Value Sans Pro";
+  src: url("/public/ValueSansPro-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Abril Display";
+  src: url("/public/Abril_Display_SemiBold.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Bakilda Histori";
+  src: url("/public/bakilda-histori.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "font";
+  src: url("/public/ValueSansPro-Black.ttf");
+  font-weight: 400;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}

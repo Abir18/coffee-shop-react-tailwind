@@ -1,0 +1,65 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        white: "#fff",
+        secondary: "#270a05",
+        paragraph: "#53565c",
+        saddlebrown: {
+          "100": "#86371c",
+          "200": "rgba(134, 55, 28, 0)",
+          "300": "rgba(134, 55, 28, 0.03)",
+        },
+        black: "#101113",
+        linear: "rgba(253, 153, 0, 0)",
+        gray: {
+          "100": "#031811",
+          "200": "rgba(39, 10, 5, 0.1)",
+          "300": "rgba(3, 24, 17, 0.7)",
+        },
+        floralwhite: "#fffaf2",
+        burlywood: "rgba(244, 177, 131, 0.1)",
+        lavender: "#e7e8f2",
+        black1: "#000",
+        second: "#f4b183",
+        lightgray: "#d1d1d1",
+        second1: "#f2efdf",
+      },
+      spacing: {},
+      fontFamily: {
+        "bakilda-histori": "'Bakilda Histori'",
+        "value-sans-pro": "'Value Sans Pro'",
+        h1: "Lemonada",
+        inherit: "inherit",
+        font: "font",
+        "abril-display": "'Abril Display'",
+      },
+      borderRadius: {
+        "9xl": "28px",
+        "31xl": "50px",
+        "6xs": "7px",
+        sm: "14px",
+        "3xs": "10px",
+        lg: "18px",
+        "481xl": "500px",
+        "11xl": "30px",
+      },
+    },
+    fontSize: {
+      "25xl": "44px",
+      base: "16px",
+      "3xl": "22px",
+      "5xl": "24px",
+      sm: "14px",
+      xl: "20px",
+      xs: "12px",
+      "11xl": "30px",
+      inherit: "inherit",
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
